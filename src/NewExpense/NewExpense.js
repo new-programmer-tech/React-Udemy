@@ -6,7 +6,8 @@ import "./NewExpense.css";
 const NewExpense = () => {
   return (
     <div className='new-expense'>
-      <NewExpenseForm />
+      {/* form */}
+      <NewExpenseForm onSaveExpenseData={} />
     </div>
   );
 };
